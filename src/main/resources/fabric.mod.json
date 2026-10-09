@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "stunoptimizer",
+  "version": "${version}",
+  "name": "StunOptimizer",
+  "description": "A Fabric optimization mod for Minecraft 1.21.11.",
+  "authors": [
+    "daudash21-collab"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.stunoptimizer.StunOptimizer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
